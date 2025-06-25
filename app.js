@@ -17,8 +17,23 @@ else{
 const password = prompt('Enter your password.')
 const confirmPass = prompt('Confirm your password.')
 if(password === confirmPass){
-    alert('Correct')
+    alert('Correct!')
 }
 else{
-    alert('Incorrect')
+    alert('Incorrect!')
+}
+
+const marks = +prompt('Enter your marks')
+if(marks >= 80){
+    alert('Grade A')
+}
+
+const temperature = +prompt('Enter Temperature (for example: 36)')
+if(temperature > 35){
+    alert('Garmi zyada hai!')
+}
+
+const username = prompt('Enter your name')
+if(username === 'Ahmed'){
+    alert('Welcome!')
 }
